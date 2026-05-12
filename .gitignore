@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Dreamweaver
+_notes/
+dwsync.xml
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Vendor
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Temporary
+*.tmp
+*.swp
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
+
+# WordPress
+wp-content/cache/
+wp-content/uploads/cache/
+
+# Generated files
+*.map
