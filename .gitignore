@@ -42,3 +42,6 @@ wp-content/uploads/cache/
 
 # Generated files
 *.map
+
+img/
+fonts/

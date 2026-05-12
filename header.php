@@ -14,13 +14,15 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
+
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<!-- ========== Meta Tags ========== -->
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT Infrastructure Consulting Services</title>
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <!-- ========== Meta Tags ========== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <!--   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="TAG Consultants Turnkey IT Infrastructure provider"> -->
 
     <!-- ========== Favicon Icon ========== -->
@@ -40,21 +42,22 @@
     <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/responsive.css" rel="stylesheet" />
     <!-- ========== End Stylesheet ========== -->
 
- 
- <?php wp_head(); ?>
-<meta name="google-site-verification" content="kHkhRktB2IbGrN_cdV3zyq0cReB50AAv2754cL9E-WM" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9SNLH8P2D5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <?php wp_head(); ?>
+    <meta name="google-site-verification" content="kHkhRktB2IbGrN_cdV3zyq0cReB50AAv2754cL9E-WM" />
 
-  gtag('config', 'G-9SNLH8P2D5');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SNLH8P2D5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9SNLH8P2D5');
+    </script>
 
 </head>
+
 <body>
 
     <!-- Preloader Start -->
@@ -68,12 +71,12 @@
             <div class="row align-center">
                 <div class="col-lg-6 info">
                     <ul>
-                         
+
                         <li>
                             <i class="fas fa-envelope-open"></i> <?php echo get_option('of_email') ?>
                         </li>
                         <li>
-                            <i class="fas fa-phone"></i><?php echo get_option('of_contact') ?> 
+                            <i class="fas fa-phone"></i><?php echo get_option('of_contact') ?>
 
 
                         </li>
@@ -90,17 +93,17 @@
                     <div class="social">
                         <ul>
                             <li>
-                                <a href="<?php echo get_option('of_fb') ?>">
+                                <a href="https://www.facebook.com/share/18gJNCeXXa/" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo get_option('of_youtube') ?>">
-                                    <i class="fab fa-youtube"></i>
+                                <a href="https://www.instagram.com/tagconsultants2024/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo get_option('of_linked') ?>">
+                                <a href="https://www.linkedin.com/company/tagconsultants/" target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
@@ -124,13 +127,13 @@
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav inc-border">
-                   <ul>
+                    <ul>
                         <li class="contact">
-                            <i class="fas fa-phone"></i> 
+                            <i class="fas fa-phone"></i>
                             <p>Call us today! <strong><?php echo get_option('of_contact') ?></strong></p>
                         </li>
-                    </ul> 
-                </div>        
+                    </ul>
+                </div>
                 <!-- End Atribute Navigation -->
 
                 <!-- Start Header Navigation -->
@@ -148,14 +151,14 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
                         <!--<?php wp_nav_menu(array('theme_location' => 'primary-menu')); ?> -->
-                        
-                        <li >
-                            <a href="https://tagconsultants.in/"  >Home</a>
-                            
+
+                        <li>
+                            <a href="https://tagconsultants.in/">Home</a>
+
                         </li>
                         <li>
                             <a href="about">About Us</a>
-                            
+
                         </li>
                         <li class="dropdown">
                             <a href="services" class="dropdown-toggle" data-toggle="dropdown">Our Services</a>
@@ -166,26 +169,29 @@
                                 <li><a href="data-center-solution">Data Center Solution</a></li>
                                 <li><a href="system-infrastructure">System Infrastructure</a></li>
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="technical-services">Technical Services </a>
-                                   <ul class="dropdown-menu fadeOutUp" style="display: none; opacity: 1;">
-                                <li><a href="cloud-monitoring"> Cloud Monitoring</a></li>
-                                <li><a href="security-monitoring"> Security Monitoring</a></li>
-                                <li><a href="it-outsourcing-data-centres-fms">IT Outsourcing and Datacentres (FMS)</a></li>
-                                <li><a href="annualmaintenancecontract">Annual Maintenance Contract (AMC)</a></li>
-                                <li><a href="e-waste-management">E-Waste Management</a></li>
-                                
-                                    </ul> 
-                                    
+                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                        href="technical-services">Technical Services </a>
+                                    <ul class="dropdown-menu fadeOutUp" style="display: none; opacity: 1;">
+                                        <li><a href="cloud-monitoring"> Cloud Monitoring</a></li>
+                                        <li><a href="security-monitoring"> Security Monitoring</a></li>
+                                        <li><a href="it-outsourcing-data-centres-fms">IT Outsourcing and Datacentres
+                                                (FMS)</a></li>
+                                        <li><a href="annualmaintenancecontract">Annual Maintenance Contract (AMC)</a>
+                                        </li>
+                                        <li><a href="e-waste-management">E-Waste Management</a></li>
+
+                                    </ul>
+
                                 </li>
                             </ul>
                         </li>
-                        
-                        
-                        <li >
-                            <a href="contact" >Contact Us</a>
-                            
+
+
+                        <li>
+                            <a href="contact">Contact Us</a>
+
                         </li>
-                        
+
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
@@ -195,39 +201,46 @@
 
     </header>
     <!-- End Header -->
-<style>
-    @media (min-width: 1024px){
-nav.navbar.bootsnav ul.nav > li > a.active {
-    color: #2e7089;
-}
+    <style>
+        @media (min-width: 1024px) {
+            nav.navbar.bootsnav ul.nav>li>a.active {
+                color: #2e7089;
+            }
 
-}
-nav.navbar.bootsnav ul.nav > li >a:hover{
-    background-color: #327190  !important;
-    color: #ffffff;
-    height:50px;
-}
-nav.navbar.bootsnav ul.nav > li > a {
-    padding: 15px 23px;
-}
-nav.navbar.bootsnav.menu-center ul.nav.navbar-center {
-    float: none;
-    margin: 33px auto;
-    display: table;
-    table-layout: fixed;
-}
-.bg-theme {
-    background-color: #2e7089;
-}
-.banner-area .content {
-    position: relative;
-    z-index: 9;
-    text-align:left !important;
-}
-nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
-        text-transform: none !important;
-}
-/*#mega-menu-wrap-primary-menu {
+        }
+
+        nav.navbar.bootsnav ul.nav>li>a:hover {
+            background-color: #327190 !important;
+            color: #ffffff;
+            height: 50px;
+        }
+
+        nav.navbar.bootsnav ul.nav>li>a {
+            padding: 15px 23px;
+        }
+
+        nav.navbar.bootsnav.menu-center ul.nav.navbar-center {
+            float: none;
+            margin: 33px auto;
+            display: table;
+            table-layout: fixed;
+        }
+
+        .bg-theme {
+            background-color: #2e7089;
+        }
+
+        .banner-area .content {
+            position: relative;
+            z-index: 9;
+            text-align: left !important;
+        }
+
+        nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a {
+            text-transform: none !important;
+        }
+
+        /*#mega-menu-wrap-primary-menu {
     background: transparent;
 }*/
-</style>
+    </style>
